@@ -1,0 +1,193 @@
+<ForceField>
+ <AtomTypes>
+  <Type name="Li" class="Li" element="Li" mass="6.5412" />
+  <Type name="Li-DLi" class="Drude" mass="0.4" />
+  <Type name="TFSI-F1" class="F1" element="F" mass="18.5984" />
+  <Type name="TFSI-F1-DF1" class="Drude" mass="0.4" />
+  <Type name="TFSI-F2" class="F1" element="F" mass="18.5984" />
+  <Type name="TFSI-F2-DF2" class="Drude" mass="0.4" />
+  <Type name="TFSI-F3" class="F1" element="F" mass="18.5984" />
+  <Type name="TFSI-F3-DF3" class="Drude" mass="0.4" />
+  <Type name="TFSI-C1" class="CBT" element="C" mass="11.611" />
+  <Type name="TFSI-C1-DC1" class="Drude" mass="0.4" />
+  <Type name="TFSI-S1" class="SBT" element="S" mass="31.66" />
+  <Type name="TFSI-S1-DS1" class="Drude" mass="0.4" />
+  <Type name="TFSI-O1" class="OBT" element="O" mass="15.59943" />
+  <Type name="TFSI-O1-DO1" class="Drude" mass="0.4" />
+  <Type name="TFSI-O2" class="OBT" element="O" mass="15.59943" />
+  <Type name="TFSI-O2-DO2" class="Drude" mass="0.4" />
+  <Type name="TFSI-N" class="NBT" element="N" mass="13.607" />
+  <Type name="TFSI-N-DN" class="Drude" mass="0.4" />
+  <Type name="TFSI-S2" class="SBT" element="S" mass="31.66" />
+  <Type name="TFSI-S2-DS2" class="Drude" mass="0.4" />
+  <Type name="TFSI-O3" class="OBT" element="O" mass="15.59943" />
+  <Type name="TFSI-O3-DO3" class="Drude" mass="0.4" />
+  <Type name="TFSI-O4" class="OBT" element="O" mass="15.59943" />
+  <Type name="TFSI-O4-DO4" class="Drude" mass="0.4" />
+  <Type name="TFSI-C2" class="CBT" element="C" mass="11.611" />
+  <Type name="TFSI-C2-DC2" class="Drude" mass="0.4" />
+  <Type name="TFSI-F4" class="F1" element="F" mass="18.5984" />
+  <Type name="TFSI-F4-DF4" class="Drude" mass="0.4" />
+  <Type name="TFSI-F5" class="F1" element="F" mass="18.5984" />
+  <Type name="TFSI-F5-DF5" class="Drude" mass="0.4" />
+  <Type name="TFSI-F6" class="F1" element="F" mass="18.5984" />
+  <Type name="TFSI-F6-DF6" class="Drude" mass="0.4" />
+  <Type name="swm4ndp-O" class="OW" element="O" mass="15.59943"/>
+  <Type name="swm4ndp-H" class="HW" element="H" mass="1.007947"/>
+  <Type name="swm4ndp-M" class="MW" mass="0"/>
+  <Type name="swm4ndp-OD" class="OWD" mass="0.4"/>
+ </AtomTypes>
+ <Residues>
+  <Residue name="Li">
+   <Atom name="Li"  charge="1.220430" type="Li"/>
+   <Atom name="DLi" charge="-0.310430" type="Li-DLi"/>
+  </Residue>
+  <Residue name="TFSI">
+   <Atom name="C1" charge="2.067683" type="TFSI-C1"/>
+   <Atom name="F1" charge="1.226319" type="TFSI-F1"/>
+   <Atom name="F2" charge="1.226319" type="TFSI-F2"/>
+   <Atom name="F3" charge="1.226319" type="TFSI-F3"/>
+   <Atom name="S1" charge="3.090790" type="TFSI-S1"/>
+   <Atom name="O1" charge="1.373801" type="TFSI-O1"/>
+   <Atom name="O2" charge="1.373801" type="TFSI-O2"/>
+   <Atom name="N" charge="1.660696" type="TFSI-N"/>
+   <Atom name="S2" charge="3.090790" type="TFSI-S2"/>
+   <Atom name="O3" charge="1.373801" type="TFSI-O3"/>
+   <Atom name="O4" charge="1.373801" type="TFSI-O4"/>
+   <Atom name="C2" charge="2.067683" type="TFSI-C2"/>
+   <Atom name="F4" charge="1.226319" type="TFSI-F4"/>
+   <Atom name="F5" charge="1.226319" type="TFSI-F5"/>
+   <Atom name="F6" charge="1.226319" type="TFSI-F6"/>
+   <Atom name="DC1" charge="-1.749183" type="TFSI-C1-DC1"/>
+   <Atom name="DF1" charge="-1.371919" type="TFSI-F1-DF1"/>
+   <Atom name="DF2" charge="-1.371919" type="TFSI-F2-DF2"/>
+   <Atom name="DF3" charge="-1.371919" type="TFSI-F3-DF3"/>
+   <Atom name="DS1" charge="-2.162590" type="TFSI-S1-DS1"/>
+   <Atom name="DO1" charge="-1.856101" type="TFSI-O1-DO1"/>
+   <Atom name="DO2" charge="-1.856101" type="TFSI-O2-DO2"/>
+   <Atom name="DN" charge="-2.261296" type="TFSI-N-DN"/>
+   <Atom name="DS2" charge="-2.162590" type="TFSI-S2-DS2"/>
+   <Atom name="DO3" charge="-1.856101" type="TFSI-O3-DO3"/>
+   <Atom name="DO4" charge="-1.856101" type="TFSI-O4-DO4"/>
+   <Atom name="DC2" charge="-1.749183" type="TFSI-C2-DC2"/>
+   <Atom name="DF4" charge="-1.371919" type="TFSI-F4-DF4"/>
+   <Atom name="DF5" charge="-1.371919" type="TFSI-F5-DF5"/>
+   <Atom name="DF6" charge="-1.371919" type="TFSI-F6-DF6"/>
+   <Bond atomName1="C1" atomName2="F1"/>
+   <Bond atomName1="C1" atomName2="F2"/>
+   <Bond atomName1="C1" atomName2="F3"/>
+   <Bond atomName1="C1" atomName2="S1"/>
+   <Bond atomName1="S1" atomName2="O1"/>
+   <Bond atomName1="S1" atomName2="O2"/>
+   <Bond atomName1="S1" atomName2="N"/>
+   <Bond atomName1="N" atomName2="S2"/>
+   <Bond atomName1="S2" atomName2="O3"/>
+   <Bond atomName1="S2" atomName2="O4"/>
+   <Bond atomName1="S2" atomName2="C2"/>
+   <Bond atomName1="C2" atomName2="F4"/>
+   <Bond atomName1="C2" atomName2="F5"/>
+   <Bond atomName1="C2" atomName2="F6"/>
+  </Residue>
+  <Residue name="HOH">
+   <Atom name="O" charge="1.71636" type="swm4ndp-O"/>
+   <Atom name="H1" charge="0.55733" type="swm4ndp-H"/>
+   <Atom name="H2" charge="0.55733" type="swm4ndp-H"/>
+   <Atom name="M" charge="-1.11466" type="swm4ndp-M"/>
+   <Atom name="OD" charge="-1.71636" type="swm4ndp-OD"/>
+   <VirtualSite type="average3" index="3" atom1="0" atom2="1" atom3="2" weight1="0.589781071" weight2="0.2051094645" weight3="0.2051094645"/>
+   <Bond from="0" to="1"/>
+   <Bond from="0" to="2"/>
+  </Residue>
+ </Residues>
+ <HarmonicBondForce>
+  <Bond class1="F1" class2="CBT"  k="369799.9999" length="0.1323"/>
+  <Bond class1="CBT" class2="SBT" k="195000.0002" length="0.1818"/>
+  <Bond class1="NBT" class2="SBT" k="313699.9999" length="0.1570"/>
+  <Bond class1="SBT" class2="OBT" k="533100.0003" length="0.1437"/>
+  <Bond class1="OW" class2="HW"   k="462750.4000" length="0.09572" />
+ </HarmonicBondForce>
+ <HarmonicAngleForce>
+  <Angle class1="F1" class2="CBT" class3="F1"   k="781.0000003" angle="1.869247629"/>
+  <Angle class1="F1" class2="CBT" class3="SBT"  k="693.9999963" angle="1.949532774"/>
+  <Angle class1="NBT" class2="SBT" class3="CBT" k="763.9999983" angle="1.806415776"/>
+  <Angle class1="CBT" class2="SBT" class3="OBT" k="869.9999982" angle="1.790707813"/>
+  <Angle class1="NBT" class2="SBT" class3="OBT" k="789.0000008" angle="1.98269403"/>
+  <Angle class1="OBT" class2="SBT" class3="OBT" k="968.9999987" angle="2.068215164"/>
+  <Angle class1="SBT" class2="NBT" class3="SBT" k="670.999996" angle="2.192133541"/>
+  <Angle class1="HW" class2="OW" class3="HW"    k="836.8000000" angle="1.82421813418" />
+ </HarmonicAngleForce>
+ <PeriodicTorsionForce>
+  <Proper class1="NBT" class2="SBT" class3="CBT" class4="F1" periodicity1="3" phase1="0.0" k1="0.661000872"/>
+  <Proper class1="OBT" class2="SBT" class3="CBT" class4="F1" periodicity1="3" phase1="0.0" k1="0.725499324"/>
+  <Proper class1="SBT" class2="NBT" class3="SBT" class4="CBT" periodicity1="1" phase1="0.0" k1="16.38650002"
+  periodicity2="2" phase2="3.14159265359" k2="-5.21000048"  periodicity3="3" phase3="0.0" k3="-1.597499316"/>
+  <Proper class1="OBT" class2="SBT" class3="NBT" class4="SBT" periodicity1="3" phase1="0.0" k1="-0.00749982"/>
+</PeriodicTorsionForce>
+<NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+  <UseAttributeFromResidue name="charge" />
+  <Atom class="F1"   epsilon="0.0" sigma="1.0" />
+  <Atom class="CBT"  epsilon="0.0" sigma="1.0" />
+  <Atom class="NBT"  epsilon="0.0" sigma="1.0" />
+  <Atom class="OBT"  epsilon="0.0" sigma="1.0" />
+  <Atom class="SBT"  epsilon="0.0" sigma="1.0" />
+  <Atom class="Li"   epsilon="0.0" sigma="1.0" />
+  <Atom type="swm4ndp-O"  epsilon="0.0" sigma="1.0"/>
+  <Atom type="swm4ndp-H"  epsilon="0.0" sigma="1.0"/>
+  <Atom type="swm4ndp-M"  epsilon="0.0" sigma="1.0"/>
+  <Atom type="swm4ndp-OD" epsilon="0.0" sigma="1.0"/>
+  <Atom class="Drude" epsilon="0.0" sigma="1.0"/>
+ </NonbondedForce>
+ <LennardJonesForce lj14scale="0.5">
+  <Atom class="Li"  epsilon="0.076479336" sigma="0.209411"/> 
+  <Atom class="CBT" epsilon="0.276139816" sigma="0.344750"/> 
+  <Atom class="F1"  epsilon="0.255399728" sigma="0.307123"/> 
+  <Atom class="SBT" epsilon="1.046000000" sigma="0.349675"/> 
+  <Atom class="NBT" epsilon="0.711280000" sigma="0.320125"/> 
+  <Atom class="OBT" epsilon="0.837360656" sigma="0.310275"/> 
+  <Atom class="OW"  epsilon="0.882573" sigma="0.318395"/>
+  <Atom class="HW"  epsilon="0.0" sigma="1.0"/>
+  <Atom class="MW"  epsilon="0.0" sigma="1.0"/>
+  <Atom class="OWD" epsilon="0.0" sigma="1.0"/>
+  <Atom class="Drude" epsilon="0.0" sigma="1.0" />
+  <NBFixPair class1="Li" class2="CBT" epsilon="0.145322872" sigma="0.26869027"/>
+  <NBFixPair class1="Li" class2="F1"  epsilon="0.139762336" sigma="0.253603912"/>
+  <NBFixPair class1="Li" class2="SBT" epsilon="0.2828384"   sigma="0.270602648"/>
+  <NBFixPair class1="Li" class2="NBT" epsilon="0.23323708"  sigma="0.258916411"/>
+  <NBFixPair class1="Li" class2="OBT" epsilon="0.253065056" sigma="0.254901945"/>
+  <NBFixPair class1="Li" class2="OW"  epsilon="0.259804921" sigma="0.256271895"/>
+  <NBFixPair class1="CBT" class2="F1" epsilon="0.265566848" sigma="0.325393076"/>
+  <NBFixPair class1="CBT" class2="SBT" epsilon="0.537438984" sigma="0.347203734"/>
+  <NBFixPair class1="CBT" class2="NBT" epsilon="0.443186016" sigma="0.332209374"/>
+  <NBFixPair class1="CBT" class2="OBT" epsilon="0.480862936" sigma="0.327058612"/>
+  <NBFixPair class1="F1" class2="SBT" epsilon="0.516862072" sigma="0.327709106"/>
+  <NBFixPair class1="F1" class2="NBT" epsilon="0.426215712" sigma="0.313556626"/>
+  <NBFixPair class1="F1" class2="OBT" epsilon="0.462453336" sigma="0.308694962"/>
+  <NBFixPair class1="SBT" class2="NBT" epsilon="0.86255252" sigma="0.334573965"/>
+  <NBFixPair class1="SBT" class2="OBT" epsilon="0.935885488" sigma="0.329386463"/>
+  <NBFixPair class1="NBT" class2="OBT" epsilon="0.771751352" sigma="0.315161487"/>
+  <NBFixPair class1="CBT" class2="OW" epsilon="0.355444935" sigma="0.328816326"/>
+  <NBFixPair class1="F1" class2="OW" epsilon="0.341836183" sigma="0.310354042"/>
+  <NBFixPair class1="SBT" class2="OW" epsilon="0.691789008" sigma="0.331156685"/>
+  <NBFixPair class1="NBT" class2="OW" epsilon="0.57046383" sigma="0.31685534"/>
+  <NBFixPair class1="OBT" class2="OW" epsilon="0.618962148" sigma="0.311942556"/>
+ </LennardJonesForce>
+ <DrudeForce>
+  <Particle charge="-1.749183" polarizability="0.001016" thole="1.3"  type1="TFSI-C1-DC1"  type2="TFSI-C1"/>
+  <Particle charge="-1.749183" polarizability="0.001016" thole="1.3"  type1="TFSI-C2-DC2"  type2="TFSI-C2"/>
+  <Particle charge="-1.371919" polarizability="0.000625" thole="1.3"  type1="TFSI-F1-DF1"  type2="TFSI-F1"/>
+  <Particle charge="-1.371919" polarizability="0.000625" thole="1.3"  type1="TFSI-F2-DF2"  type2="TFSI-F2"/>
+  <Particle charge="-1.371919" polarizability="0.000625" thole="1.3"  type1="TFSI-F3-DF3"  type2="TFSI-F3"/>
+  <Particle charge="-1.371919" polarizability="0.000625" thole="1.3"  type1="TFSI-F4-DF4"  type2="TFSI-F4"/>
+  <Particle charge="-1.371919" polarizability="0.000625" thole="1.3"  type1="TFSI-F5-DF5"  type2="TFSI-F5"/>
+  <Particle charge="-1.371919" polarizability="0.000625" thole="1.3"  type1="TFSI-F6-DF6"  type2="TFSI-F6"/>
+  <Particle charge="-2.162590" polarizability="0.001553" thole="1.3"  type1="TFSI-S1-DS1"  type2="TFSI-S1"/>
+  <Particle charge="-2.162590" polarizability="0.001553" thole="1.3"  type1="TFSI-S2-DS2"  type2="TFSI-S2"/>
+  <Particle charge="-2.261296" polarizability="0.001698" thole="1.3"  type1="TFSI-N-DN"    type2="TFSI-N"/>
+  <Particle charge="-1.856101" polarizability="0.001144" thole="1.3"  type1="TFSI-O1-DO1"  type2="TFSI-O1"/>
+  <Particle charge="-1.856101" polarizability="0.001144" thole="1.3"  type1="TFSI-O2-DO2"  type2="TFSI-O2"/>
+  <Particle charge="-1.856101" polarizability="0.001144" thole="1.3"  type1="TFSI-O3-DO3"  type2="TFSI-O3"/>
+  <Particle charge="-1.856101" polarizability="0.001144" thole="1.3"  type1="TFSI-O4-DO4"  type2="TFSI-O4"/>
+  <Particle charge="-0.310430" polarizability="0.0000320" thole="1.3"  type1="Li-DLi"       type2="Li"/>
+  <Particle charge="-1.71636" polarizability="0.000978253" thole="1.3" type1="swm4ndp-OD" type2="swm4ndp-O"/>
+ </DrudeForce>
+</ForceField>

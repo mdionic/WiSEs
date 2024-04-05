@@ -1,0 +1,56 @@
+ <Residues>
+  <Residue name="Li">
+   <Atom name="Li" type="Li"/>
+   <Atom name="DLi" type="Li-DLi"/>
+  </Residue>
+  <Residue name="TFSI">
+   <Atom name="C1"  type="TFSI-C1"/>
+   <Atom name="F1"  type="TFSI-F1"/>
+   <Atom name="F2"  type="TFSI-F2"/>
+   <Atom name="F3"  type="TFSI-F3"/>
+   <Atom name="S1"  type="TFSI-S1"/>
+   <Atom name="N"   type="TFSI-N"/>
+   <Atom name="O1"  type="TFSI-O1"/>
+   <Atom name="O2"  type="TFSI-O2"/>
+   <Atom name="S2"  type="TFSI-S2"/>
+   <Atom name="O3"  type="TFSI-O3"/>
+   <Atom name="O4"  type="TFSI-O4"/>
+   <Atom name="C2"  type="TFSI-C2"/>
+   <Atom name="F4"  type="TFSI-F4"/>
+   <Atom name="F5"  type="TFSI-F5"/>
+   <Atom name="F6"  type="TFSI-F6"/>
+   <Atom name="DF1" type="TFSI-F1-DF1"/>
+   <Atom name="DF2" type="TFSI-F2-DF2"/>
+   <Atom name="DF3" type="TFSI-F3-DF3"/>
+   <Atom name="DC1" type="TFSI-C1-DC1"/>
+   <Atom name="DS1" type="TFSI-S1-DS1"/>
+   <Atom name="DO1" type="TFSI-O1-DO1"/>
+   <Atom name="DO2" type="TFSI-O2-DO2"/>
+   <Atom name="DN"  type="TFSI-N-DN" />
+   <Atom name="DS2" type="TFSI-S2-DS2"/>
+   <Atom name="DO3" type="TFSI-O3-DO3"/>
+   <Atom name="DO4" type="TFSI-O4-DO4"/>
+   <Atom name="DC2" type="TFSI-C2-DC2"/>
+   <Atom name="DF4" type="TFSI-F4-DF4"/>
+   <Atom name="DF5" type="TFSI-F5-DF5"/>
+   <Atom name="DF6" type="TFSI-F6-DF6"/>
+   <Bond from="C1" to="F1"/>
+   <Bond from="C1" to="F2"/>
+   <Bond from="C1" to="F3"/>
+   <Bond from="C1" to="S1"/>
+   <Bond from="S1" to="O1"/>
+   <Bond from="S1" to="O2"/>
+   <Bond from="S1" to="N"/>
+   <Bond from="N"  to="S2"/>
+   <Bond from="S2" to="O3"/>
+   <Bond from="S2" to="O4"/>
+   <Bond from="S2" to="C2"/>
+   <Bond from="C2" to="F4"/>
+   <Bond from="C2" to="F5"/>
+   <Bond from="C2" to="F6"/>
+  </Residue>
+  <Residue name="HOH">
+   <Bond from="0" to="1"/>
+   <Bond from="0" to="2"/>
+  </Residue>
+ </Residues>
