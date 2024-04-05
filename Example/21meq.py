@@ -28,24 +28,22 @@ class ForceReporter(object):
             self._out.write('%g %g %g\n' % (f[0], f[1], f[2]))
 
 
-# 模拟参数
 temperature    = 293.15*kelvin
 pressure       = 1.0*bar
 timestep       = 0.001*picosecond
-Total_step     = 10                 # 单位: ns (后面程序中进行了处理)
-nstposition    = 1000000             # 轨迹保存的频率
-nstcheck       = 5000000             # check文件保存的频率
-nstlog         = 100                # 其他信息
-nstTdrude      = 500                # T_COM , T_drude etc
+Total_step     = 10                 
+nstposition    = 1000000             
+nstcheck       = 5000000             
+nstlog         = 100                
+nstTdrude      = 500            
 nstbar         = 50
 
-#模拟设定
 Total_step = 1000000*Total_step
 
-simtk.openmm.app.Topology.loadBondDefinitions('/public/home/lbma/LiTFSI_Water/FF/residues.xml')
+simtk.openmm.app.Topology.loadBondDefinitions('./FF/residues.xml')
 pdb = PDBFile('./21m.pdb')
 modeller = Modeller(pdb.topology, pdb.positions)
-forcefield = ForceField('/public/home/lbma/LiTFSI_Water/FF/charge-scale0.89-pol.xml')
+forcefield = ForceField('./FF/charge-scale0.89-pol.xml')
 # add drude particles
 modeller.addExtraParticles(forcefield)
 print("The drude particles have been added ...")
