@@ -3,4 +3,4 @@ These files are polarizable force field parameter files and simulation scripts f
 # Citation
 If you find that these files are useful, please cite the following paper:
 
-Linbo Ma and Jian Jiang, Vehicular Motions Dominate the Ion Transport in Concentrated LiTFSI Aqueous Solutions? J. Phys. Chem. Lett. 2024. (Accepted)
+[Linbo Ma and Jian Jiang, Vehicular Motions Dominate the Ion Transport in Concentrated LiTFSI Aqueous Solutions? J. Phys. Chem. Lett. 2024.](https://pubs.acs.org/doi/10.1021/acs.jpclett.4c00791)
